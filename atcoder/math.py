@@ -2,6 +2,12 @@ import typing
 
 import atcoder._math
 
+def pow_mod(x: int, n: int, m: int) -> int:
+    assert 1 <= m
+    assert 0 <= n
+    
+    return pow(x, n, m)
+
 
 def inv_mod(x: int, m: int) -> int:
     assert 1 <= m
